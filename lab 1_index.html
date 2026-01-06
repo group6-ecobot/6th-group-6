@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 1 - Algae & Fungi</title>
+  <style>
+    /* BODY */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, rgba(255,228,216,0.9), rgba(255,142,193,0.9));
+    }
+
+    /* NAVBAR */
+    .nav {
+      background-color: rgba(255,111,145,0.9);
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .nav a:hover {
+      color: #FFE4EC;
+    }
+
+    /* HERO HEADER */
+    .hero {
+      background-image: url('image77.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      margin-bottom: 30px;
+    }
+    .hero h1 { margin: 0; font-size: 36px; }
+    .hero p { margin: 5px 0 0 0; font-size: 18px; }
+
+    /* PAGE TITLE */
+    h1 {
+      text-align: center;
+      color: #FF6F91;
+      margin-bottom: 20px;
+    }
+
+    /* PLANT CARDS */
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto 50px auto;
+    }
+
+    .plant-card {
+      display: flex;
+      background-color: #fff0f5;
+      border-radius: 20px;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      align-items: flex-start;
+      transition: transform 0.3s;
+    }
+
+    .plant-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .plant-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-right: 20px;
+      border: 2px solid #FF6F91;
+    }
+
+    .plant-info p {
+      margin: 6px 0;
+      font-size: 14px;
+    }
+
+    /* BACK LINK */
+    .back-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .back-link a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #FF6F91;
+      font-size: 16px;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+	
+	body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background-image: 
+    linear-gradient(
+      rgba(255,228,216,0.85),
+      rgba(255,142,193,0.85)
+    ),
+    url('lab1b.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="lab 1_index.html">Lab 1</a>
+    <a href="lab 2_index.html">Lab 2</a>
+    <a href="lenggeng 2_index.html">Lenggeng</a>
+    <a href="VIDEO_index.html">Video</a>
+  </div>
+
+  <h1>LAB  1 - Algae & Fungi</h1>
+
+  <div class="card-container">
+  
+    <div class="plant-card">
+      <img src="1- lab 1.jpg" alt="Homegrown Seaweed">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Homegrown Seaweed</p>
+        <p><strong>Scientific Name:</strong> <i>Gracilaria changgi</i></p>
+        <p><strong>Ingredients:</strong> Seaweed (Laver/Nori), Corn oil, Sesame oil, Salt, Sugar, Seasoning powder</p>
+        <p><strong>Producer:</strong> Laman Alamjaya Sdn. Bhd</p>
+        <p><strong>Purpose:</strong> Nutritious food source and base for high-value products.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="2- lab 1.jpg" alt="Dried Wakame Seaweed">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Dried Wakame Seaweed (Sea Mustard)</p>
+        <p><strong>Scientific Name:</strong> <i>Undaria pinnatifida</i></p>
+        <p><strong>Ingredients:</strong> 100% dried seaweed</p>
+        <p><strong>Producer:</strong> Fujicco Co., Ltd.</p>
+        <p><strong>Purpose:</strong> Add nutritious & flavorful ingredient to dishes.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="3- lab 1.jpg" alt="Sanko Sangyo Kaisou">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Sanko Sangyo Kaisou</p>
+        <p><strong>Scientific Name:</strong> <i>Undaria pinnatifida</i> & Agar agar</p>
+        <p><strong>Ingredients:</strong> No other ingredient</p>
+        <p><strong>Producer:</strong> Sanko Sangyo</p>
+        <p><strong>Purpose:</strong> Tasty and nutritious addition to meals.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="4- lab 1.jpg" alt="Dried Brown Seaweed">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Dried Brown Seaweed (Mi Yuk)</p>
+        <p><strong>Scientific Name:</strong> <i>Undaria pinnatifida</i></p>
+        <p><strong>Ingredients:</strong> Dried brown seaweed 100%</p>
+        <p><strong>Producer:</strong> Godbawee Food Co., Ltd.</p>
+        <p><strong>Purpose:</strong> Nutrition and culinary tradition</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="5- lab 1.jpg" alt="Hokkaido Cut Kombu">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Hokkaido Cut Kombu</p>
+        <p><strong>Scientific Name:</strong> <i>Saccharina japonica</i></p>
+        <p><strong>Ingredients:</strong> Kelp (Hokkaido)</p>
+        <p><strong>Producer:</strong> Tohira Konbu Kaisou Co., Ltd.</p>
+        <p><strong>Purpose:</strong> Making Japanese soup stock or dashi.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="6- lab 1.jpg" alt="Crispy Seaweed - NOi">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Crispy Seaweed - NOi</p>
+        <p><strong>Scientific Name:</strong> <i>Pyropia yezoensis</i> & <i>Pyropia tenera</i></p>
+        <p><strong>Ingredients:</strong> Seaweed 60%</p>
+        <p><strong>Producer:</strong> Tong Garden Co,. Ltd.</p>
+        <p><strong>Purpose:</strong> High protein, antioxidants, and versatile in meals.</p>
+      </div>
+    </div>
+	<div class="plant-card">
+      <img src="7- lab 1.jpg" alt="Crispy Seaweed - NOi">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Crispy Seaweed - NOi</p>
+        <p><strong>Scientific Name:</strong> <i>Pyropia yezoensis</i> & <i>Pyropia tenera</i></p>
+        <p><strong>Ingredients:</strong> Seaweed 60%</p>
+        <p><strong>Producer:</strong> Tong Garden Co,. Ltd.</p>
+        <p><strong>Purpose:</strong> High protein, antioxidants, versatile in meals.</p>
+      </div>
+    </div>
+	
+ <div class="plant-card">
+      <img src="8- lab 1.jpg" alt="Cauliflower mushroom">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Cauliflower mushroom</p>
+        <p><strong>Scientific Name:</strong> <i>Brassica oleracea var. botrytis</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Fu Jian Ning De Yong Jia Trade Co.</p>
+        <p><strong>Purpose:</strong> Culinary & medicinal; rich in Beta-glucans.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="9- lab 1.jpg" alt="Big Bang Grilled Seaweed">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Big Bang Grilled Seaweed</p>
+        <p><strong>Scientific Name:</strong> <i>Pyropia yezoensis</i></p>
+        <p><strong>Ingredients:</strong> Seaweed 95%</p>
+        <p><strong>Producer:</strong> Taokaenoi Food & Marketing Public Co., Ltd.</p>
+        <p><strong>Purpose:</strong> Convenient, crunchy, flavorful snack.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="10- lab 1.jpg" alt="Kimnori Korean Crispy Seaweed Snack">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Kimnori Korean Crispy Seaweed Snack</p>
+        <p><strong>Scientific Name:</strong> <i>Pyropia yezoensis</i></p>
+        <p><strong>Ingredients:</strong> Seaweed 70%</p>
+        <p><strong>Producer:</strong> Kwangcheonkim Co.</p>
+        <p><strong>Purpose:</strong> Snack alone or as meal addition.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="11- lab 1.jpg" alt="Portobello mushroom">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Portobello mushroom</p>
+        <p><strong>Scientific Name:</strong> <i>Agaricus bisporus</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Fungiculture Asia Sdn. Bhd.</p>
+        <p><strong>Purpose:</strong> Food & health; source of bioactive compounds.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="12- lab 1.jpg" alt="Brown button mushroom">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Brown button mushroom</p>
+        <p><strong>Scientific Name:</strong> <i>Agaricus bisporus</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Champ Fungi Sdn. Bhd.</p>
+        <p><strong>Purpose:</strong> Popular mushroom, rich in bioactive compounds.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="13- lab 1.jpg" alt="Laverland Crunch Wasabi">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Laverland Crunch Wasabi</p>
+        <p><strong>Scientific Name:</strong> <i>Pyropia tenera</i> & <i>Pyropia yezoensis</i></p>
+        <p><strong>Ingredients:</strong> Seaweed 65%</p>
+        <p><strong>Producer:</strong> Manjun Foods Co,. Ltd.</p>
+        <p><strong>Purpose:</strong> High protein, antioxidants, used in sushi or soups.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="14- lab 1.jpg" alt="King oyster mushroom">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> King oyster mushroom</p>
+        <p><strong>Scientific Name:</strong> <i>Pleurotus eryngii</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Mx Fruit & Vegetable (M) Sdn. Bhd</p>
+        <p><strong>Purpose:</strong> Thick stem, tender, used in various dishes, nutritious.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="15- lab 1.jpg" alt="Fresh black fungus">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Fresh black fungus</p>
+        <p><strong>Scientific Name:</strong> <i>Auricularia polytricha</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Mx Fruit & Vegetable (M) Sdn. Bhd</p>
+        <p><strong>Purpose:</strong> Used in soups; antioxidant properties.</p>
+      </div>
+    </div>
+
+    <div class="plant-card">
+      <img src="16- lab 1.jpg" alt="Enoki mushroom">
+      <div class="plant-info">
+        <p><strong>Common Name:</strong> Enoki mushroom</p>
+        <p><strong>Scientific Name:</strong> <i>Flammulina filiformis</i></p>
+        <p><strong>Ingredients:</strong> No other ingredients</p>
+        <p><strong>Producer:</strong> Hor Fung Naturefresh Sdn. Bhd.</p>
+        <p><strong>Purpose:</strong> Supports digestion; used in soups and hot pots.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="back-link">
+    <a href="index.html">← Back to Home</a>
+  </div>
+
+</body>
+</html>

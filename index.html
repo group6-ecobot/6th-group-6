@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Economy Botany Group 6</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, rgba(255,228,216,0.9), rgba(255,142,193,0.9));
+}
+
+/* NAVBAR */
+.nav {
+  background-color: rgba(255,111,145,0.9);
+  padding: 15px;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.nav a:hover { color: #FFE4EC; }
+
+/* HERO HEADER */
+.hero {
+  background-image: url('image77.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.hero h1 { margin: 0; font-size: 36px; }
+.hero p { margin: 5px 0 0 0; font-size: 18px; }
+
+/* MEMBERS GRID */
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto 70px auto;
+}
+.member-card {
+  background-color: #FFDAB9;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+.member-card:hover { transform: translateY(-8px) scale(1.02); }
+.member-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #FF6F91;
+  margin-bottom: 12px;
+}
+
+/* SECTIONS */
+.section { display: none; margin-top: 20px; max-width: 1200px; margin-left:auto;margin-right:auto;}
+.section.active { display: block; }
+
+/* LABS */
+.labs {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.lab-card {
+  text-align: center;
+  transition: transform 0.3s;
+}
+.lab-card img {
+  width: 150px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+.lab-card:hover img { transform: scale(1.1); }
+.lab-card span { display:block; margin-top:10px; font-weight:bold; color:#FF6F91; }
+
+.back-home-btn {
+  display:block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #FF6F91;
+  color:white;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  transition: background 0.3s;
+}
+.back-home-btn:hover { background-color:#FF85A2; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .members { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+@media (max-width: 480px) {
+  .members { grid-template-columns: 1fr; }
+  .labs { flex-direction: column; gap: 30px; }
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background-image: 
+    linear-gradient(
+      rgba(255,228,216,0.85),
+      rgba(255,142,193,0.85)
+    ),
+    url('body1.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="lab 1_index.html">Lab 1</a>
+  <a href="lab 2_index.html">Lab 2</a>
+  <a href="lenggeng 2_index.html">Lenggeng</a>
+  <a href="VIDEO_index.html">Video</a>
+</div>
+
+
+<!-- HOME SECTION -->
+<div id="home" class="section active">
+  <header class="hero">
+    <h1>Economy Botany Group 6</h1>
+    <p>Welcome to our website</p>
+  </header>
+
+  <div class="members">
+    <div class="member-card">
+      <img src="1.jpg" alt="Siti Nurul Dayanah binti Aljuana Roslan">
+      <h3>Siti Nurul Dayanah binti Aljuana Roslan</h3>
+      <p>22003490</p>
+    </div>
+    <div class="member-card">
+      <img src="2.png" alt="Nur Alya Maisarah binti Mohd Azizan">
+      <h3>Nur Alya Maisarah binti Mohd Azizan</h3>
+      <p>22003216</p>
+    </div>
+    <div class="member-card">
+      <img src="3.png" alt="Nur Amirah Izzati binti Salleh">
+      <h3>Nur Amirah Izzati binti Salleh</h3>
+      <p>22003420</p>
+    </div>
+    <div class="member-card">
+      <img src="4.jpg" alt="Ayuni Balqis binti Azman">
+      <h3>Ayuni Balqis binti Azman</h3>
+      <p>22003094</p>
+    </div>
+    <div class="member-card">
+      <img src="5.jpg" alt="Sharifah Hazwani binti Syed Shamsuddin">
+      <h3>Sharifah Hazwani binti Syed Shamsuddin</h3>
+      <p>22003214</p>
+    </div>
+    <div class="member-card">
+      <img src="6.jpg" alt="Mohamad Iman bin Zulkiflee">
+      <h3>Mohamad Iman bin Zulkiflee</h3>
+      <p>U2101249</p>
+    </div>
+  </div>
+</div>
+
+<!-- LABS SECTION -->
+<div id="labs" class="section">
+  <h1 style="text-align:center;">Select Lab to View</h1>
+  <div class="labs">
+    <a href="lab 1_index.html" class="lab-card">
+      <img src="lab1.jpg" alt="Lab 1">
+      <span>Lab 1 - Algae & Fungi</span>
+    </a>
+    <a href="lab 2_index.html" class="lab-card">
+      <img src="lab2.jpg" alt="Lab 2">
+      <span>Lab 2 - Fern</span>
+    </a>
+    <a href="lenggeng 2_index.html" class="lab-card">
+      <img src="lenggeng1.jpg" alt="Lenggeng 1">
+      <span>Field Trip - Lenggeng</span>
+    </a>
+	<a href="VIDEO_index.html" class="lab-card">
+      <img src="lenggeng1.jpg" alt="Lenggeng 1">
+      <span>VIDEO Field Trip - Lenggeng</span>
+    </a>
+  </div>
+  <button class="back-home-btn" onclick="showSection('home')">← Back to Home</button>
+</div>
+
+<script>
+function showSection(id){
+  document.querySelectorAll('.section').forEach(function(sec){
+    sec.classList.remove('active');
+  });
+  document.getElementById(id).classList.add('active');
+}
+</script>
+
+</body>
+</html>
